@@ -50,5 +50,5 @@ while not done:
             done = True
     display()
     pygame.display.flip()
-    pygame.time.wait(1);
+    pygame.time.wait(1)
 pygame.quit()

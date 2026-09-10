@@ -4,52 +4,7 @@ import numpy as np
 
 from imgui_bundle import imgui, hello_imgui
 
-from OpenGL.GL import (
-    GL_ARRAY_BUFFER,
-    GL_COLOR_BUFFER_BIT,
-    GL_COMPILE_STATUS,
-    GL_DEPTH_BUFFER_BIT,
-    GL_DEPTH_TEST,
-    GL_ELEMENT_ARRAY_BUFFER,
-    GL_FALSE,
-    GL_FLOAT,
-    GL_LINES,
-    GL_LINK_STATUS,
-    GL_STATIC_DRAW,
-    GL_TRUE,
-    GL_UNSIGNED_INT,
-    glAttachShader,
-    glBindBuffer,
-    glBindVertexArray,
-    glBufferData,
-    glClear,
-    glClearColor,
-    glCompileShader,
-    glCreateProgram,
-    glCreateShader,
-    glDeleteShader,
-    glDisable,
-    glDrawElements,
-    glEnable,
-    glEnableVertexAttribArray,
-    glGenBuffers,
-    glGenVertexArrays,
-    glGetAttribLocation,
-    glGetProgramInfoLog,
-    glGetProgramiv,
-    glGetShaderInfoLog,
-    glGetShaderiv,
-    glGetUniformLocation,
-    glLinkProgram,
-    glShaderSource,
-    glUniform3f,
-    glUniformMatrix4fv,
-    glUseProgram,
-    glVertexAttribPointer,
-    glViewport,
-    GL_FRAGMENT_SHADER,
-    GL_VERTEX_SHADER,
-)
+from OpenGL.GL import *
 
 
 angle_normalized = 0.0
