@@ -1,2 +1,4 @@
+imgui-bundle==1.92.900
+numpy==2.5.3
 pygame==2.6.1
 PyOpenGL==3.1.10
